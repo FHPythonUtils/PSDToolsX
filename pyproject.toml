@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "psdtoolsx"
+version = "19.5.0"
+description = "Python package for working with Adobe Photoshop PSD files"
+authors = ["FredHappyface", "Kota Yamaguchi"]
+license = "MIT"
+classifiers = [
+	'Development Status :: 4 - Beta',
+	'Intended Audience :: Developers',
+	'License :: OSI Approved :: MIT License',
+	'Programming Language :: Python',
+	'Programming Language :: Python :: 3',
+	'Programming Language :: Python :: 3.7',
+	'Programming Language :: Python :: 3.8',
+	'Programming Language :: Python :: 3.9',
+	'Topic :: Multimedia :: Graphics',
+	'Topic :: Multimedia :: Graphics :: Viewers',
+	'Topic :: Multimedia :: Graphics :: Graphics Conversion',
+	'Topic :: Software Development :: Libraries :: Python Modules',
+]
+homepage = "https://github.com/FHPythonUtils/psdtoolsx"
+repository = "https://github.com/FHPythonUtils/psdtoolsx"
+documentation = "https://github.com/FHPythonUtils/psdtoolsx/blob/master/README.md"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+attrs = "^20.2.0"
+Pillow = "^8.0.1"
+numpy = "^1.19.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
