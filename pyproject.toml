@@ -26,9 +26,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-attrs = "^20.2.0"
-Pillow = "^8.0.1"
-numpy = "^1.19.3"
+attrs = "<22,>=20.2.0"
+Pillow = "<10,>=8.0.1"
+numpy = "<3,>=1.19.3"
 
 [tool.poetry.dev-dependencies]
 
