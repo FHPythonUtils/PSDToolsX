@@ -13,37 +13,32 @@
 <img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
 
-
 PSDToolsX is a Python package for working with Adobe
 Photoshop PSD files as described in
 [specification](https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/).
 
-[![PyPI Version](https://img.shields.io/pypi/v/psd-tools.svg)](https://pypi.python.org/pypi/psd-tools)
-![Test](https://github.com/psd-tools/psd-tools/workflows/Test/badge.svg)
-[![Document Status](https://readthedocs.org/projects/psd-tools/badge/)](http://psd-tools.readthedocs.io/en/latest/)
 
+## Rationale
+Use an up to date version of `psd-tools` with fewer dependencies.
 
 
 ## Changes from upstream
 
-1. Use poetry
+1. use poetry
 2. find and replace `psd_tools` with `psdtoolsx`
+3. removed some dependencies (this will break some things)
 
 
 ## Installation
 
 Use `pip` to install the package:
 
-    pip install psd-tools
-
-::: {.note}
-::: {.title}
-Note
-:::
+```
+pip install psdtoolsx
+```
 
 In order to extract images from 32bit PSD files PIL/Pillow must be built
 with LITTLECMS or LITTLECMS2 support.
-:::
 
 ## Getting started
 
